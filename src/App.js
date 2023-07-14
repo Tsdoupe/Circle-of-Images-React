@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 // import HomePage from './pages/HomePage';
-import ProjectsList from './features/projects/ProjectsList';
+import GalleryPage from './pages/GalleryPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App" style={{ backgroundColor: '#c8cca8'}}>
       <Header/>
       {/* <HomePage /> */}
-      <ProjectsList />
+      <GalleryPage />
       <Footer/>
     </div>
   );
